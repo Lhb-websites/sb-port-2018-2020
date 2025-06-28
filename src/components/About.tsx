@@ -26,7 +26,7 @@ const About: React.FC = () => {
               className="text-lg md:text-xl text-dark-200 leading-relaxed mb-6"
             >
               Hans Lacida is a skilled{' '}
-              <span className="text-primary-400 font-semibold">Junior Odds Compiler/Trader</span>{' '}
+              <span className="text-primary-400 font-semibold">Esports Odds Trader & Junior Sportsbook Analyst</span>{' '}
               with{' '}
               <span className="text-primary-400 font-semibold">2 years of experience</span>{' '}
               at a confidential international operator. He specialized in{' '}

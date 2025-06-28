@@ -50,7 +50,7 @@ const Experience: React.FC = () => {
               <div className="flex-1">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
                   <h3 className="text-2xl md:text-3xl font-bold text-white mb-2 md:mb-0">
-                    Junior Odds Compiler/Trader
+                    Esports Odds Trader & Junior Sportsbook Analyst
                   </h3>
                   <div className="flex items-center gap-4 text-dark-300">
                     <div className="flex items-center gap-2">

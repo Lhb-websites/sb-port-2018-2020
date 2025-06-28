@@ -27,12 +27,12 @@ const Hero: React.FC = () => {
               Hans <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-accent-400">Lacida</span>
             </h1>
             <h2 className="text-2xl md:text-3xl text-dark-200 font-medium mb-4">
-              Junior Odds Compiler/Trader & Esports Specialist
+              Esports Odds Trader & Junior Sportsbook Analyst
             </h2>
             <div className="flex flex-wrap justify-center gap-4 text-dark-300 text-lg mb-8">
               <div className="flex items-center gap-2">
                 <TrendingUp className="w-5 h-5 text-primary-400" />
-                <span>Odds Compilation</span>
+                <span>Odds Trading</span>
               </div>
               <div className="flex items-center gap-2">
                 <Target className="w-5 h-5 text-accent-400" />
@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Zap className="w-5 h-5 text-primary-400" />
-                <span>Trading Operations</span>
+                <span>Sportsbook Operations</span>
               </div>
             </div>
           </motion.div>
