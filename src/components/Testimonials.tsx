@@ -6,17 +6,24 @@ import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    quote: "In my time working with Hans, I witnessed firsthand his ability to remain calm and accurate under pressure. His precision in handling in-play adjustments was a major asset to the team.",
+    quote: "Hans demonstrated exceptional analytical skills in odds compilation and market analysis. His attention to detail in liability management was crucial for our operations.",
     author: "Head of Trading",
     company: "Confidential Betting Company",
     role: "Head of Trading"
   },
   {
     id: 2,
-    quote: "Hans stood out as one of our most reliable odds operators. Even during intense tournaments, he ensured timely market updates and accurate settlements.",
-    author: "Esports Operations Team Leader",
+    quote: "Working with Hans was a pleasure. His ability to gather and analyze data for pre-match sports significantly enhanced our sportsbook product offerings.",
+    author: "Senior Trader",
     company: "Confidential Betting Company",
-    role: "Esports Operations Team Leader"
+    role: "Senior Trader"
+  },
+  {
+    id: 3,
+    quote: "Hans's reports on betting markets and customer behavior provided valuable insights that helped shape our strategic decisions. His cross-departmental support was invaluable.",
+    author: "Operations Manager",
+    company: "Confidential Betting Company",
+    role: "Operations Manager"
   }
 ];
 

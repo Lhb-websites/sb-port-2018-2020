@@ -27,20 +27,20 @@ const Hero: React.FC = () => {
               Hans <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-accent-400">Lacida</span>
             </h1>
             <h2 className="text-2xl md:text-3xl text-dark-200 font-medium mb-4">
-              Esports Odds Operator & Sportsbook Specialist
+              Junior Odds Compiler/Trader & Esports Specialist
             </h2>
             <div className="flex flex-wrap justify-center gap-4 text-dark-300 text-lg mb-8">
               <div className="flex items-center gap-2">
                 <TrendingUp className="w-5 h-5 text-primary-400" />
-                <span>Live Odds Monitoring</span>
+                <span>Odds Compilation</span>
               </div>
               <div className="flex items-center gap-2">
                 <Target className="w-5 h-5 text-accent-400" />
-                <span>Bet Settlement</span>
+                <span>Market Analysis</span>
               </div>
               <div className="flex items-center gap-2">
                 <Zap className="w-5 h-5 text-primary-400" />
-                <span>Esports Market Operations</span>
+                <span>Trading Operations</span>
               </div>
             </div>
           </motion.div>
@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
             </div>
             <div className="bg-dark-800/50 backdrop-blur-sm border border-dark-700 rounded-xl p-6 hover:bg-dark-800/70 transition-all duration-300">
               <div className="text-3xl font-bold text-accent-400 mb-2">24/7</div>
-              <div className="text-dark-300">Live Monitoring</div>
+              <div className="text-dark-300">Market Monitoring</div>
             </div>
             <div className="bg-dark-800/50 backdrop-blur-sm border border-dark-700 rounded-xl p-6 hover:bg-dark-800/70 transition-all duration-300">
               <div className="text-3xl font-bold text-primary-400 mb-2">100%</div>

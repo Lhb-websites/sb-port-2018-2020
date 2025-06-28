@@ -23,16 +23,31 @@ const About: React.FC = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-lg md:text-xl text-dark-200 leading-relaxed"
+              className="text-lg md:text-xl text-dark-200 leading-relaxed mb-6"
             >
-              Hans Lacida is a sportsbook and esports betting specialist with{' '}
+              Hans Lacida is a skilled{' '}
+              <span className="text-primary-400 font-semibold">Junior Odds Compiler/Trader</span>{' '}
+              with{' '}
               <span className="text-primary-400 font-semibold">2 years of experience</span>{' '}
               at a confidential international operator. He specialized in{' '}
-              <span className="text-accent-400 font-semibold">live odds monitoring</span>,{' '}
-              real-time manual odds adjustments, and post-match bet settlement across esports titles like{' '}
+              <span className="text-accent-400 font-semibold">odds compilation</span>,{' '}
+              market analysis, and trading operations across both traditional sports and esports titles like{' '}
               <span className="text-primary-400 font-semibold">League of Legends</span>,{' '}
               <span className="text-primary-400 font-semibold">Dota 2</span>, and{' '}
               <span className="text-primary-400 font-semibold">CS:GO</span>.
+            </motion.p>
+            
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="text-lg text-dark-300 leading-relaxed"
+            >
+              His expertise spans from{' '}
+              <span className="text-accent-400 font-semibold">data gathering and market analysis</span>{' '}
+              to{' '}
+              <span className="text-primary-400 font-semibold">liability management</span>{' '}
+              and competitive intelligence, making him a well-rounded professional in the sportsbook industry.
             </motion.p>
           </div>
         </motion.div>

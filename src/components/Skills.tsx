@@ -7,34 +7,52 @@ import {
   Gamepad2, 
   Settings, 
   Shield, 
-  Monitor 
+  Monitor,
+  BarChart3,
+  Search,
+  FileText
 } from 'lucide-react';
 
 const skills = [
   {
     icon: TrendingUp,
-    title: 'Live Odds Monitoring',
-    description: 'Real-time market surveillance and analysis during live events'
+    title: 'Odds Compilation',
+    description: 'Compiling special odds for a variety of sporting events with precision'
   },
   {
-    icon: Target,
-    title: 'Bet Settlement Accuracy',
-    description: 'Precise post-match settlement with zero-error tolerance'
-  },
-  {
-    icon: Gamepad2,
-    title: 'League of Legends Expertise',
-    description: 'Deep understanding of game mechanics and competitive meta'
-  },
-  {
-    icon: Settings,
-    title: 'Manual In-Play Adjustments',
-    description: 'Quick decision-making for odds adjustments during matches'
+    icon: Search,
+    title: 'Data Gathering & Analysis',
+    description: 'Pre-match sports data collection to enhance sportsbook products'
   },
   {
     icon: Shield,
-    title: 'Risk & Market Profiling',
-    description: 'Advanced risk assessment and market behavior analysis'
+    title: 'Liability Management',
+    description: 'Monitor and manage liability for published markets and performance analysis'
+  },
+  {
+    icon: FileText,
+    title: 'Reporting & Documentation',
+    description: 'Creating comprehensive reports on customers, betting markets, and channels'
+  },
+  {
+    icon: BarChart3,
+    title: 'Market Intelligence',
+    description: 'Investigating market trends and competitive analysis for valuable insights'
+  },
+  {
+    icon: Gamepad2,
+    title: 'Esports Expertise',
+    description: 'Specialized knowledge in League of Legends, Dota 2, and CS:GO markets'
+  },
+  {
+    icon: Settings,
+    title: 'Trading Tools Development',
+    description: 'Developing and documenting trading skills and tools for product improvement'
+  },
+  {
+    icon: Target,
+    title: 'Cross-Department Support',
+    description: 'Assisting teams across departments with various odds-related tasks'
   },
   {
     icon: Monitor,
@@ -59,7 +77,7 @@ const Skills: React.FC = () => {
             Core <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-accent-400">Skills</span>
           </h2>
           <p className="text-xl text-dark-300 max-w-2xl mx-auto">
-            Specialized expertise in esports betting operations and live market management
+            Comprehensive expertise in odds compilation, trading operations, and sportsbook management
           </p>
         </motion.div>
 
